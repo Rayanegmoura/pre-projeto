@@ -15,6 +15,14 @@ const routes: Routes = [
     path: 'rayane',
     loadChildren: () => import('./rayane/rayane.module').then( m => m.RayanePageModule)
   },
+  {
+    path: 'ryan',
+    loadChildren: () => import('./ryan/ryan.module').then( m => m.RyanPageModule)
+  },
+  {
+    path: 'giulia',
+    loadChildren: () => import('./giulia/giulia.module').then( m => m.GiuliaPageModule)
+  },
 ];
 
 @NgModule({
