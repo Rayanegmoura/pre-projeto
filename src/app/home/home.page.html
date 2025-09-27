@@ -7,14 +7,29 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Viva + Saúde</ion-card-title>
+      <ion-card-subtitle>Grupo 9</ion-card-subtitle>
+    </ion-card-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-card-content>
+      O <strong>Viva+Saúde</strong> é um aplicativo desenvolvido pelo Grupo 9 com o objetivo de <strong>facilitar o acesso da população a serviços de saúde</strong>. O app permite localizar clínicas próximas, públicas ou particulares, agendar consultas e exames de forma simples e rápida, além de integrar resultados de exames, dados pessoais de saúde e serviços de emergência, tornando-se uma ferramenta prática e essencial para o cuidado com o bem-estar.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button [routerLink]="['/giulia']" expand="block">
+        <strong>Giulia Vitória</strong>
+  </ion-button>
+
+  <ion-button [routerLink]="['/rayane']" expand="block">
+        <strong>Rayane Gomes</strong>
+  </ion-button>
+
+  <ion-button [routerLink]="['/ryan']" expand="block">
+        <strong>Ryan Roger</strong>
+  </ion-button>
+
 </ion-content>
+
+

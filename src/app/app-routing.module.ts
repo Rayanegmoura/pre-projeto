@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'rayane',
+    loadChildren: () => import('./rayane/rayane.module').then( m => m.RayanePageModule)
+  },
 ];
 
 @NgModule({

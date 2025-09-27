@@ -1,0 +1,33 @@
+ion-content, ion-card {
+    --background: #F9FAFB;
+    --color: #000000;
+    text-align: center;
+}
+
+.img-card {
+    margin-bottom: 35px;
+    border-radius: 20px;
+    border: 2px solid #9777ff;
+    box-shadow: 5px 10px 22px #9777ff;
+}
+
+.nome-card {
+    color:#9777ff;
+}
+
+.box-txt {
+    background-color: #9777ff42;
+}
+
+.btn-voltar {
+    --background-color: #9777ff;
+}
+
+.btn-voltar{
+  --background: #9777ff;
+  --color: #fff;
+  --border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
